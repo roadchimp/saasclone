@@ -1,0 +1,16 @@
+{
+  "src": {
+    "components": {
+      "common": ["Button", "Input", "Modal"],
+      "layout": ["Header", "Footer", "Sidebar"],
+      "features": {
+        "prospecting": ["ProspectList", "ProspectDetail", "ProspectFilter"],
+        "outreach": ["EmailComposer", "TemplateSelector", "SequenceBuilder"],
+        "analytics": ["Dashboard", "ReportGenerator", "MetricsCard"]
+      }
+    },
+    "pages": ["HomePage", "ProspectsPage", "SequencesPage", "AnalyticsPage"],
+    "utils": [],
+    "hooks": []
+  }
+} 
