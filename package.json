@@ -2,18 +2,27 @@
   "name": "saasclone",
   "version": "1.0.0",
   "description": "Build AI-First Tools from Screens & Prompts",
-  "main": "dist/scaffold-generator.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "start": "node dist/scaffold-generator.js",
-    "dev": "ts-node src/scaffold-generator.ts"
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "scaffold": "ts-node src/scaffold-generator/generator.ts",
+    "visual-parser": "ts-node src/visual-input-parser/index.ts",
+    "template-wizard": "ts-node src/template-wizard/index.ts",
+    "prototype": "ts-node src/prototyping-layer/index.ts",
+    "prompt": "ts-node src/prompt-packager/index.ts",
+    "export-appsmith": "ts-node src/appsmith-exporter/index.ts"
   },
   "keywords": [
     "scaffold",
     "generator",
     "template",
     "react",
-    "typescript"
+    "typescript",
+    "appsmith",
+    "v0",
+    "cursor"
   ],
   "author": "",
   "license": "MIT",

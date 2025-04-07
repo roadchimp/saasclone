@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "name": "Basic Web App Template",
+    "description": "A starter template for a basic React web application with routing and basic UI components",
+    "author": "Workflow Cloner Team",
+    "tags": ["web", "react", "basic", "starter"],
+    "version": "1.0.0"
+  },
+  "src": {
+    "components": {
+      "common": ["Button", "Card", "Input", "Modal", "Alert", "Spinner", "Badge"],
+      "layout": ["Header", "Footer", "Sidebar", "Container", "PageLayout"],
+      "features": {
+        "auth": ["LoginForm", "RegisterForm", "ForgotPasswordForm", "AuthContext"],
+        "user": ["UserProfile", "UserSettings", "Avatar"]
+      }
+    },
+    "pages": ["HomePage", "LoginPage", "RegisterPage", "ProfilePage", "SettingsPage", "NotFoundPage"],
+    "hooks": ["useAuth", "useForm", "useLocalStorage", "useAPI"],
+    "utils": ["api", "validation", "formatting", "storage"],
+    "context": ["AuthContext", "ThemeContext"],
+    "routes": ["AppRoutes"]
+  }
+} 
